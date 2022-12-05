@@ -57,6 +57,16 @@ h4{
      border-radius: 140px 0px;
      border: 2px solid #B0855B;
 }
+.section-heading h4{
+     font-size: 20px;
+     text-transform: uppercase;
+     color: #646464;
+     font-weight: 600;
+
+}
+.section-heading h3{
+     font-size: 48px;
+}
 
 /*
 header css
@@ -107,18 +117,67 @@ hore area css
      width: 100%;
      border-radius: 140px 0px;
 }
-.hero-text h3 {
+.hero-text h4 {
      font-size: 20;
      color: #646464;
+     text-transform: uppercase;
 }
-.hero-text h2 {
+.hero-text h3 {
      font-size: 65px;
      color: #212121;
+     text-transform: capitalize;
 }
 .hore-area a{
      margin-top:15px;
 }
+/*
+servic area css 
+*/
+.servic-area{
+     padding: 100px 0;
+}
+.all-services{
+     margin-top: 60px;
+     position: relative;
+}
+.servic-area .owl-nav{
+ position: absolute;
+ right: 0;
+ top: -80px;
+}
+.servic-area .owl-nav span{
+     height: 30px;
+     width: 30px;
+     background-color: #fff;
+     color: #646464;
+     display: inline-block;
+     border-radius: 50%;
+     box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+     transition: .3s;
 
+}
+.servic-area .owl-nav span:hover{
+     background-color: #37806B;
+     color: #fff;
+}
+.owl-next{
+     margin-left: 15px;
+}
+.single-service {
+ background: #FFFFFF;
+ box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+ border-radius: 60px 0px;
+ padding: 40px 20px 40px 35px;
+ transition: .3s;
+ cursor: pointer;
+}
+.single-service:hover{
+     background-color: #CAA892;
+     color: #fff;
+}
+.service-text p{
+     margin-bottom: 0;
+}
 
 /*
 footer area css

@@ -68,9 +68,9 @@
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center">
             <div class="hero-text pe-0 pe-lg-3">
-              <h3>MODERN INTERIOR</h3>
-              <h2>Create Your
-                Interior Design.</h2>
+              <h4>MODERN INTERIOR</h4>
+              <h3>Create Your
+                Interior Design.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                   veniam, quis nostrud exercitation.</p>
@@ -81,6 +81,81 @@
             <div class="hero-image design-image">
               <img src="assets/img/hero-image.png" alt="">
             </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!--start servic area-->
+     <section class="servic-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h4>WHAT WE DO</h4>
+              <h3>Our Service</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+           <div class="all-services owl-carousel ">
+          <div class="single-service-area px-3 py-4">
+            <div class="single-service d-flex">
+              <div class="service-img me-4">
+                <img src="assets/img/s-one.png" alt="">
+              </div>
+              <div class="service-text">
+                <h3>Interior Design</h3>
+                <p>Lorem ipsum dolor amet consectetur
+                  adipiscing elit sed eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="single-service-area px-3 py-4">
+            <div class="single-service d-flex">
+              <div class="service-img me-4">
+                <img src="assets/img/s-three.png" alt="">
+              </div>
+              <div class="service-text">
+                <h3>Architecture</h3>
+                <p>Lorem ipsum dolor amet consectetur
+                  adipiscing elit sed eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="single-service-area px-3 py-4">
+            <div class="single-service d-flex">
+              <div class="service-img me-4">
+                <img src="assets/img/s-three.png" alt="">
+              </div>
+              <div class="service-text">
+                <h3>Planning</h3>
+                <p>Lorem ipsum dolor amet consectetur
+                  adipiscing elit sed eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="single-service-area px-3 py-4">
+            <div class="single-service d-flex">
+              <div class="service-img me-4">
+                <img src="assets/img/s-one.png" alt="">
+              </div>
+              <div class="service-text">
+                <h3>Interior Design</h3>
+                <p>Lorem ipsum dolor amet consectetur
+                  adipiscing elit sed eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+
+           </div>
           </div>
         </div>
       </div>
@@ -185,7 +260,25 @@
 <!--script-->
 <script>
      $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+      $('.all-services  ').owlCarousel({
+    loop:true,
+    margin:2,
+    responsiveClass:true,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:3,
+            
+        }
+    }
+    })
 });
 </script>
 
