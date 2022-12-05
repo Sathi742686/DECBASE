@@ -57,6 +57,21 @@ h4{
      border-radius: 140px 0px;
      border: 2px solid #B0855B;
 }
+.design-image-two{
+     position: relative;
+     z-index: 1;
+}
+.design-image-two::after{
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 100%;
+     left: -20px;
+     top: -20px;
+     z-index: -1;
+     border-radius: 140px 0px;
+     border: 2px solid #B0855B;
+}
 .section-heading h4{
      font-size: 20px;
      text-transform: uppercase;
@@ -135,6 +150,7 @@ servic area css
 */
 .servic-area{
      padding: 100px 0;
+     position: relative;
 }
 .all-services{
      margin-top: 60px;
@@ -177,6 +193,12 @@ servic area css
 }
 .service-text p{
      margin-bottom: 0;
+}
+/*
+about area css
+*/
+.about-area{
+     padding: 100px 0;
 }
 
 /*
