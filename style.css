@@ -83,6 +83,7 @@ h4{
      font-size: 48px;
 }
 
+
 /*
 header css
 */
@@ -199,6 +200,19 @@ about area css
 */
 .about-area{
      padding: 100px 0;
+}
+/*
+success area css
+*/
+.success-area{
+     padding: 100px 0;
+     position: relative;
+}
+.section-heading img {
+   margin-bottom: 20px;  
+}
+.success-area .theme-button{
+     margin-top: 30px;
 }
 
 /*
