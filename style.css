@@ -27,6 +27,37 @@ h4{
      color: #212121;   
 }
 
+.theme-button{
+     text-decoration: none;
+     background-color: #37806B;
+     color: #fff;
+     text-transform: capitalize;
+     border-radius: 15px 0px;
+     padding: 10px 20px;
+     transition: .3s;
+     display: inline-block;
+}
+
+.theme-button:hover{
+     background-color: #CAA892;
+     color: #fff;
+}
+.design-image{
+     position: relative;
+     z-index: 1;
+}
+.design-image::after{
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 100%;
+     left: 20px;
+     top: 20px;
+     z-index: -1;
+     border-radius: 140px 0px;
+     border: 2px solid #B0855B;
+}
+
 /*
 header css
 */
@@ -67,11 +98,27 @@ header css
      }      
 }
 /*
-main area css
+hore area css
 */
-.main-area{
-     padding: 200px;
+.hore-area{
+     padding: 70px 0;
 }
+.hero-image img{
+     width: 100%;
+     border-radius: 140px 0px;
+}
+.hero-text h3 {
+     font-size: 20;
+     color: #646464;
+}
+.hero-text h2 {
+     font-size: 65px;
+     color: #212121;
+}
+.hore-area a{
+     margin-top:15px;
+}
+
 
 /*
 footer area css
@@ -139,9 +186,12 @@ list-style: none;
      color: #37806B;
 }
 .design {
+     width: 100px;
      position: absolute;
      top: -50px;
 }
 .design img {
-     height: 100px;
+    
+     width: 100%;
+     
 }
