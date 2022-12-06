@@ -271,6 +271,79 @@
         </div>
       </div>
      </section>
+     <!--atart testimonial area-->
+     <section class="testimonial-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-heading text-center">
+              <h4>TESTIMONIALS</h4>
+              <h3>Client says about us</h3>
+            </div>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="all-testimonial owl-carousel">
+              <div class="single-testimonial">
+                <div class="testimonial-content">
+                  <div class="testimonial-img">
+                    <img src="assets/img/testimonial-img-1.png" alt="">
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>Louis Saville <span>/CEO at Google inc</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.</p>
+                      <div class="icon-img">
+                        <img src="assets/img/testimonial-icon.png" alt="">
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="single-testimonial">
+                <div class="testimonial-content">
+                  <div class="testimonial-img">
+                    <img src="assets/img/testimonial-img-2.png" alt="">
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>Rekha Varadwaz <span> /Manager at Nike inc</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.</p>
+                      <div class="icon-img">
+                        <img src="assets/img/testimonial-icon.png" alt="">
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="single-testimonial">
+                <div class="testimonial-content">
+                  <div class="testimonial-img">
+                    <img src="assets/img/testimonial-img-1.png" alt="">
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>Louis Saville <span>/CEO at Google inc</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.</p>
+                      <div class="icon-img">
+                        <img src="assets/img/testimonial-icon.png" alt="">
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="design">
+        <img src="assets/img/group.png" alt="">
+      </div>
+     </section>
 
     </main>
     <!--end main-->
@@ -386,7 +459,24 @@
             items:2,
         },
         1000:{
-            items:3,
+            items:3, 
+        }
+    }
+    })
+
+
+    $('.all-testimonial  ').owlCarousel({
+    loop:true,
+    margin:50,
+    responsiveClass:true,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+        },
+        1000:{
+            items:2,
             
         }
     }
