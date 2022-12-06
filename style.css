@@ -46,6 +46,10 @@ h4{
      position: relative;
      z-index: 1;
 }
+.design-image img {
+     width: 100%;
+     border-radius: 140px 0;
+}
 .design-image::after{
      position: absolute;
      content: "";
@@ -363,6 +367,20 @@ testimonial area css
          background-color: #37806B;
          color: #fff;
     }
+/*
+blog area css
+*/
+.blog-area{
+     background-color:  #F8F8F8;
+     padding: 100px 0;
+}
+.blog-area .section-heading{
+     margin-bottom: 70px;
+}
+.blog-text{
+     margin-top: 40px;
+}
+
 /*
 footer area css
 */
