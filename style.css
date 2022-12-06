@@ -380,6 +380,49 @@ blog area css
 .blog-text{
      margin-top: 40px;
 }
+/*
+singup area css
+*/
+.singup-area{
+     padding: 180px 0;
+}
+.singup-text h3 {
+     font-size: 48px;
+     margin-bottom: 22px;
+     padding-bottom: 22px;
+     position: relative;
+}
+.singup-text h3::after{
+     position: absolute;
+     content: "";
+     height: 1px;
+     width: 400px;
+     background-color:#C4C4C4;;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+}
+.singup-text p {
+     margin-bottom: 45px;
+}
+.singup-area .form-control{
+ background-color: #EEEEEE;
+ border: none;
+ font-size: 20px;
+ border-radius: 20px 0 0 0;
+ padding: 10px 15px;
+}
+
+.singup-area button {
+     border: none;
+     background-color:#37806B ;
+     padding: 10px 40px;
+     color: #fff;
+     border-radius:0 0 20px 0;
+}
+.singup-area button:hover{
+     background-color: #B0855B;
+}
 
 /*
 footer area css
